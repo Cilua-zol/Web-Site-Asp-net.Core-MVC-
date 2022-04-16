@@ -15,6 +15,11 @@
       <_ContentIncludedByDefault Remove="Views\Account\AccReq.cshtml" />
       <_ContentIncludedByDefault Remove="Views\Account\AccView.cshtml" />
       <_ContentIncludedByDefault Remove="Pages\Acc\AccReq.cshtml" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\images\footer.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\images\header.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\images\image-wrapper.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\images\navPanel.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\images\overlay.png" />
     </ItemGroup>
 
 </Project>

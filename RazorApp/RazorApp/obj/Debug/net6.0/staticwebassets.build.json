@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WC0ZrCJz3G/NNRDSfHy6y3bPL7Q85EryC5K8jv5MdpI=",
+  "Hash": "Sw09oFCuz/lyCElxHsSl2/bqMKLpq0z+zMQmJltVmYA=",
   "Source": "RazorApp",
   "BasePath": "_content/RazorApp",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\RiderProj\\Web\\Proj\\RazorApp\\RazorApp\\wwwroot\\images\\index_page.jpg",
+      "SourceId": "RazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RiderProj\\Web\\Proj\\RazorApp\\RazorApp\\wwwroot\\",
+      "BasePath": "_content/RazorApp",
+      "RelativePath": "images/index_page.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\index_page.jpg"
     },
     {
       "Identity": "D:\\RiderProj\\Web\\Proj\\RazorApp\\RazorApp\\wwwroot\\js\\site.js",

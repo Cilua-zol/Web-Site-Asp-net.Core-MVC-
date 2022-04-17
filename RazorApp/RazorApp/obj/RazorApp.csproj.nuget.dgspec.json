@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\RiderProj\\Web\\Proj\\RazorApp\\RazorApp\\RazorApp.csproj": {}
+    "D:\\Fork\\Web-Site-Asp-net.Core-MVC-\\RazorApp\\RazorApp\\RazorApp.csproj": {}
   },
   "projects": {
-    "D:\\RiderProj\\Web\\Proj\\RazorApp\\RazorApp\\RazorApp.csproj": {
+    "D:\\Fork\\Web-Site-Asp-net.Core-MVC-\\RazorApp\\RazorApp\\RazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RiderProj\\Web\\Proj\\RazorApp\\RazorApp\\RazorApp.csproj",
+        "projectUniqueName": "D:\\Fork\\Web-Site-Asp-net.Core-MVC-\\RazorApp\\RazorApp\\RazorApp.csproj",
         "projectName": "RazorApp",
-        "projectPath": "D:\\RiderProj\\Web\\Proj\\RazorApp\\RazorApp\\RazorApp.csproj",
-        "packagesPath": "C:\\Users\\Tema\\.nuget\\packages\\",
-        "outputPath": "D:\\RiderProj\\Web\\Proj\\RazorApp\\RazorApp\\obj\\",
+        "projectPath": "D:\\Fork\\Web-Site-Asp-net.Core-MVC-\\RazorApp\\RazorApp\\RazorApp.csproj",
+        "packagesPath": "C:\\Users\\Артемий\\.nuget\\packages\\",
+        "outputPath": "D:\\Fork\\Web-Site-Asp-net.Core-MVC-\\RazorApp\\RazorApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Tema\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Артемий\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

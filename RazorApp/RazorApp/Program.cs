@@ -9,6 +9,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ITestMethods, TestMethods>();
 builder.Services.AddScoped<IDbClient, DbClient>();
+builder.Services.AddScoped<IWalletMethods, WalletMethods>();
 
 var app = builder.Build();
 

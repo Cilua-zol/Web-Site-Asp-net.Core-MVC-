@@ -1,6 +1,17 @@
-body#img{
-  background-repeat: no-repeat;
+
+body{
+  background-image: url(../images/index_page.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-container{
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.footer-link {
+  color: #c5e4ee;
 }
 .href_styles{
   color: #cbedf5;
@@ -13,7 +24,7 @@ a:hover{
   color: #c5e4ee;
 }
 .container{
-  color: #f0f0f0;
+  color: #fffefe;
   font-size: 20px;
   text-decoration: none;
 }
@@ -39,7 +50,7 @@ a {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
+  color: #000000;
   background-color: #fdfdfd;
   border-color: #ffffff;
 }

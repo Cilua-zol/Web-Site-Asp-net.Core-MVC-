@@ -9,11 +9,13 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly ITestMethods _test;
+    private readonly IWalletMethods _wallet;
 
-    public HomeController(ILogger<HomeController> logger, ITestMethods test)
+    public HomeController(ILogger<HomeController> logger, ITestMethods test, IWalletMethods wallet)
     {
         _logger = logger;
         _test = test;
+        _wallet = wallet;
     }
 
     public IActionResult Index()
@@ -34,15 +36,15 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Test(string log, string pass)
+    public async Task<IActionResult> Test(string cardNumber, string password, string phoneNumber)
     {
-        Account account = await _test.Do(log, pass);
-        return RedirectToAction("TestResult", "Home", account);
+        Wallet wallet = await _wallet.CreateWallet(cardNumber, password, phoneNumber);
+        return RedirectToAction("TestResult", "Home", wallet);
     }
     [HttpGet]
-    public IActionResult TestResult(Account account)
+    public IActionResult TestResult(Wallet wallet)
     {
-        return View(account);
+        return View(wallet);
     }
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

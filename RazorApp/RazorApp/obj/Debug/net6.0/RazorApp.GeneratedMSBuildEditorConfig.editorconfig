@@ -23,6 +23,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjXEFjY1ZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Bank/CreateWallet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xDcmVhdGVXYWxsZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Bank/WalletResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xXYWxsZXRSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -31,20 +39,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Home/Test.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Home/TestResult.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0UmVzdWx0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Test/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxUZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Test/TestResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxUZXN0UmVzdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/_ViewImports.cshtml]

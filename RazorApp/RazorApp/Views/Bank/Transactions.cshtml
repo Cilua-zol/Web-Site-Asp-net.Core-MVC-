@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    
+}
+<body>
+<header>
+    <div class="text-center">
+        <p>
+            <span class="index_display1"> Payments </span>
+        </p>
+    </div>
+</header>
+<div class="wrap">
+    <div class="bblock" style="opacity: 0.0"></div>
+    <div class="bblock">
+        <img src="/images/add (1).png" width="60" height="60" alt="Wallet">
+        <p></p>
+        <h3 class="form_title">Operations</h3>
+        <p class="index_text">Just Add your balance</p>
+        <a class="index_button" asp-controller="Bank" asp-action="Operation">Operation</a>
+    </div>
+    <div class="bblock">
+        <img src="/images/world-wide-web.png" alt="Transaction" width="60" height="60">
+        <p></p>
+        <h3 class="form_title">Transactions</h3>
+        <p class="index_text">Trans your monney wallet => wallet </p>
+        <a class="index_button" asp-controller="Bank" asp-action="Transaction">Transfer</a>
+    </div>
+</div>
+</body>
+

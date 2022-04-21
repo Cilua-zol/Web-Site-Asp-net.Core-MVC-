@@ -1,0 +1,28 @@
+﻿@model Account 
+<!DOCTYPE html>
+<html lang="en">
+@{ViewData["Title"] = "Wallet Reqister";}
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+<div>
+    <div class="text-center">
+        <form class="form">
+            
+            <h1 class="form_title"> Your profile</h1>
+            
+            <div class="form_group">
+                <label class="index_text" > Email </label>
+                <label class="index_text" >@Model.Email</label>
+            </div>
+            <div class="form_group">
+                <label class="index_text" > Password </label>
+                <label class="index_text" >@Model.Password</label>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

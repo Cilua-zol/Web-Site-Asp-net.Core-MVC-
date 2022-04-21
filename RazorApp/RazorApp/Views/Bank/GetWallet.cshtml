@@ -1,0 +1,32 @@
+﻿@model Wallet
+<!DOCTYPE html>
+<html lang="en">
+@{ViewData["Title"] = "Wallet Reqister";}
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+<div>
+    <div class="text-center">
+        <form method="post" class="form">
+            
+            <h1 class="form_title"> Credit data</h1>
+            
+            <div class="form_group">
+                <label class="index_text" > Phone: </label>
+                <label class="index_text" >@Model.PhoneNumber</label>
+            </div>
+            <div class="form_group">
+                <label class="index_text" > Card: </label>
+                <label class="index_text" >@Model.СardNumber</label>
+            </div>
+            <div class="form_group">
+                <label class="index_text"> Balance: </label>
+                <label class="index_text">@Model.Balance</label>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

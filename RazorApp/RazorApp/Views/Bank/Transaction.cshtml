@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@{ViewData["Title"] = "Transacrion";}
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+<div>
+    <div class="text-center">
+        <form method="post" class="form">
+            
+            <h1 class="form_title"> Transaction data</h1>
+            <div class="form_group">
+                <input class="form_input" name="Card" placeholder=" " type="number"/>
+                <label class="form_label"> Card </label>
+            </div>
+            <div class="form_group">
+                <input class="form_input" name="phone" placeholder=" " type="number"/>
+                <label class="form_label"> Phone </label>
+            </div>
+            <div class="form_group">
+                <input class="form_input" name="sum" placeholder=" " type="password"/>
+                <label class="form_label"> Sum </label>
+            </div>
+             <div class="form_group">
+                <input class="form_input" name="description" placeholder=" " type="password"/>
+                <label class="form_label"> Description </label>
+             </div>
+            <button class="form_button"> Enter  </button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -11,6 +11,9 @@ namespace RazorApp.MongoDb
     {
         IMongoCollection<Account> GetAccountCollection();
         IMongoCollection<Wallet> GetWalletCollection();
+        IMongoCollection<SessionModel> GetSessionCollection();
+        IMongoCollection<Operation> GetOperationCollection();
+        IMongoCollection<Trans> GetTransCollection();
 
     }
 
@@ -19,7 +22,10 @@ namespace RazorApp.MongoDb
         private IMongoCollection<Account> AccountCollection;
         
         private IMongoCollection<Wallet> WalletCollection;
-
+        
+        private IMongoCollection<SessionModel> SessionCollection;
+        private IMongoCollection<Operation> OperationCollection;
+        private IMongoCollection<Trans> TransCollection;
         public DbClient()
         {
 
@@ -29,10 +35,19 @@ namespace RazorApp.MongoDb
 
             AccountCollection = database.GetCollection<Account>("Accounts");
             WalletCollection = database.GetCollection<Wallet>("Wallets");
+            SessionCollection = database.GetCollection<SessionModel>("Sessions");
+            OperationCollection = database.GetCollection<Operation>("Operations");
+            TransCollection = database.GetCollection<Trans>("Trans");
+
+
+
         }
 
         public IMongoCollection<Account> GetAccountCollection() => AccountCollection;
         public IMongoCollection<Wallet> GetWalletCollection() => WalletCollection;
+        public IMongoCollection<Operation> GetOperationCollection() => OperationCollection;
+        public IMongoCollection<SessionModel> GetSessionCollection() => SessionCollection;
+        public IMongoCollection<Trans> GetTransCollection() => TransCollection;
 
     }
 }

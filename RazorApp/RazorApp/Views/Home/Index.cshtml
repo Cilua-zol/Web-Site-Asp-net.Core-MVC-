@@ -1,13 +1,41 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    
 }
 <body>
+<header>
     <div class="text-center">
         <p>
-            <span class="index_display1"> Welcome </span>
-        </p>
-        <p>
-            <a href="https://www.last.fm/user/caska_d" class="href_styles">Check my Last.fm profile</a>.
+            <span class="index_display1"> Tema's Bank </span>
         </p>
     </div>
+</header>
+<div class="wrap">
+    <div class="bblock">
+        <img src="/images/wallet_icon.png"  width="60" height="60" alt="Wallet"><p></p>
+        <h3 class="form_title">Wallet</h3>
+        <p class="index_text">If you dont have a wallet welcome here</p>
+        <a class="index_button" asp-controller="Bank" asp-action="CreateWallet">Wallet</a>
+    </div>
+    <div class="bblock">
+        <img src="/images/transaction.png" alt="Transaction" width="60" height="60"><p></p>
+        <h3 class="form_title">Transactions</h3>
+        <p class="index_text">send money wherever you want</p>
+        <a class="index_button" asp-controller="Bank" asp-action="Transactions">Transfer</a>
+    </div>
+    <div class="bblock">
+        <img src="/images/history.png" alt="History" width="60" height="60"><p></p>
+        <h3 class="form_title">Operation History</h3>
+        <p class="index_text">Check your Operation History here and more info</p>
+        <a class="index_button" asp-controller="Bank" asp-action="WalletResult">History</a>
+    </div>
+    <div class="bblock">
+        <img src="/images/user.png" alt="User" width="60" height="60"><p></p>
+        <h3 class="form_title">User</h3>
+        <p class="index_text">check your user information here and more</p>
+        <a class="index_button" asp-controller="Bank" asp-action="GetWallet">Profile</a>
+        
+    </div>
+</div>
 </body>
+

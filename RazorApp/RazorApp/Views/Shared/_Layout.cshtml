@@ -20,11 +20,20 @@
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Bank" asp-action="CreateWallet"> Test</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-black" asp-controller="Acc" asp-action="AccReq"> GetAcc </a>
-                    </li>
+                </ul>
+                <ul class="navbar-center">
+                    <a  class="index_display1" href="https://www.last.fm/user/caska_d">Bank</a>
+                </ul>
+                <ul class="nav navbar-nav float-xs-right">
+                    <div class="dropdown">
+                      <button class="dropbtn">Account</button>
+                        <div class="dropdown-content">
+                            <a class="nav-link text-dark" asp-controller="Acc" asp-action="Profile"> Profile </a>
+                            <a class="nav-link text-dark" asp-controller="Acc" asp-action="Login">Log In</a>
+                            <a class="nav-link text-dark" style="background-color: #ee777f" asp-controller="Acc" asp-action="Logout">Log Out</a>
+                        </div>
+                    </div>
                 </ul>
             </div>
         </div>

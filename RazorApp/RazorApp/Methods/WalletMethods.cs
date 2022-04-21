@@ -9,21 +9,28 @@ namespace RazorApp.Methods
     public interface IWalletMethods
     {
         Task<Wallet> CreateWallet(string cardNumber, string password, string phoneNumber);
+        Task<Wallet> GetWalletByEmail(string email);
+        Task<SessionModel> GetSession();
     }
 
     public class WalletMethods : IWalletMethods
     {
         private readonly IMongoCollection<Wallet> _walletCollection;
+        private readonly IMongoCollection<SessionModel> _sessionCollection;
 
         public WalletMethods(IDbClient dbClient)
         {
             _walletCollection = dbClient.GetWalletCollection();
+            _sessionCollection = dbClient.GetSessionCollection();
+            
         }
         //Added Wallet to Bd 
         public async Task<Wallet> CreateWallet(string cardNumber, string password, string phoneNumber)
         {
+            var session = await GetSession();
             Wallet wallet = new Wallet();
             wallet.Id = Guid.NewGuid().ToString("N");
+            wallet.Email = session.Email;
             wallet.СardNumber = cardNumber;
             wallet.PhoneNumber = phoneNumber;
             wallet.Pass = await GetHash(password);
@@ -32,6 +39,17 @@ namespace RazorApp.Methods
             
             await _walletCollection.InsertOneAsync(wallet);
             return wallet;
+        }
+
+        public async Task<Wallet> GetWalletByEmail(string email)
+        {
+            var wallet = await _walletCollection.Find(x => x.Email == email).FirstOrDefaultAsync();
+            if (wallet is null)
+            {
+                return null;
+            }
+            return wallet;
+            
         }
 
         #region Helpers
@@ -50,7 +68,16 @@ namespace RazorApp.Methods
             return sb.ToString();
         }
 
+        
+            public async Task<SessionModel> GetSession()
+            {
+                SessionModel session = await _sessionCollection.Find(u => u.SessionStatus == SessionModel.Status.Active)
+                    .FirstOrDefaultAsync();
+                return session;
+            }
+        
 
         #endregion
+        
 }
 }

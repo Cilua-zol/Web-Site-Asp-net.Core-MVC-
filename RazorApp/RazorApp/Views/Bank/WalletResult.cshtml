@@ -1,18 +1,24 @@
-﻿@model Wallet
+﻿@model List<Operation>
 @{
     ViewData["Title"] = "WalletResult";
 }
 
 <div class="text-center">
     <div class="data-container">
-        <a>
-            <div class="result-container">
-                <a>
-                    <h1>@Model.PhoneNumber</h1> <dl></dl>
-                    <h1>@Model.СardNumber</h1> <dl></dl>
-                    <a>Auth is complete</a>
-                </a>
-            </div>
-        </a>
+        
+        @foreach (var row in Model)
+                {
+                    <div class="form">
+                         <label class="index_text" > Date: </label>
+                        <label class="history_text">@row.OperationTime</label>
+                        <p></p>
+                         <label class="index_text" > Type: </label>
+                        <label class="history_text">@row.OperationType</label>
+                        <p></p>
+                        <label class="index_text" > Balance: </label>
+                        <label class="history_text">@row.Summ</label>
+                    </div>
+                    <p></p>
+                }
     </div>
 </div>

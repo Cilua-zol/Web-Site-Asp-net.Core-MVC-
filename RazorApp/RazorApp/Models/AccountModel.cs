@@ -4,13 +4,14 @@ using MongoDB.Bson.Serialization.Attributes;
 namespace RazorApp.Models
 {
     [BsonIgnoreExtraElements]
+    
     public class Account
     {
-        [BsonIgnore]
+        [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public ObjectId Id { get; set; }
-        public string Login { get; set; }
+        public ObjectId InternalId { get; set;}
+        public string Id { get; set; }
         public string Password { get; set; }
-
+        public string Email { get; set; }
     }
-}
+}   

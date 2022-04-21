@@ -8,61 +8,81 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RazorApp
 build_property.RootNamespace = RazorApp
-build_property.ProjectDir = D:\Fork\Web-Site-Asp-net.Core-MVC-\RazorApp\RazorApp\
+build_property.ProjectDir = D:\RiderProj\ForkProj\Web-Site-Asp-net.Core-MVC-\RazorApp\RazorApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Fork\Web-Site-Asp-net.Core-MVC-\RazorApp\RazorApp
+build_property.MSBuildProjectDirectory = D:\RiderProj\ForkProj\Web-Site-Asp-net.Core-MVC-\RazorApp\RazorApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Acc/AccReq.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjXEFjY1JlcS5jc2h0bWw=
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Acc/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Acc/AccView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjXEFjY1ZpZXcuY3NodG1s
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Acc/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjXFByb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Bank/CreateWallet.cshtml]
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Acc/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Bank/CreateWallet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xDcmVhdGVXYWxsZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Bank/WalletResult.cshtml]
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Bank/GetWallet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xHZXRXYWxsZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Bank/Operation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xPcGVyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Bank/Transaction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xUcmFuc2FjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Bank/Transactions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xUcmFuc2FjdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Bank/WalletResult.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xXYWxsZXRSZXN1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Home/Index.cshtml]
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Home/Privacy.cshtml]
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Shared/Error.cshtml]
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Test/Test.cshtml]
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Test/Test.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxUZXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Test/TestResult.cshtml]
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Test/TestResult.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxUZXN0UmVzdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/_ViewImports.cshtml]
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/_ViewStart.cshtml]
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Fork/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Shared/_Layout.cshtml]
+[D:/RiderProj/ForkProj/Web-Site-Asp-net.Core-MVC-/RazorApp/RazorApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6ukbutek8m

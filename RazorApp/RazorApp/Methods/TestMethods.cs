@@ -24,7 +24,7 @@ public class TestMethods : ITestMethods
     public async Task<Account> Do(string log, string pass)
     {
         Account account = new Account();
-        account.Login = log;
+        account.Email = log;
         account.Password = pass;
 
         await _accountCollection.InsertOneAsync(account);
@@ -33,7 +33,7 @@ public class TestMethods : ITestMethods
 
     public async Task<Account> GetAccByLogin(string login)
     {
-        var acc = await _accountCollection.Find(x => x.Login == login).FirstOrDefaultAsync();
+        var acc = await _accountCollection.Find(x => x.Email== login).FirstOrDefaultAsync();
         return acc;
     }
 

@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RazorApp.Methods;
 using RazorApp.Models;
@@ -18,6 +19,7 @@ public class HomeController : Controller
         _wallet = wallet;
     }
 
+    [Authorize]
     public IActionResult Index()
     {
         return View();

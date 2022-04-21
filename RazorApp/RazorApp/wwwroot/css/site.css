@@ -1,8 +1,192 @@
 
 body{
-  background-image: url(../images/index_page.jpg);
+  background-image: url("../images/index_page.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  
+}
+body.img {
+  background-image: none;
+}
+.history_text{
+  color: black;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.dropbtn_list {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn_list:hover, .dropbtn_list:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown_list {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content_list {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content_list a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content_list a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/* Кнопка выпадающего списка */
+.dropbtn {
+  background-color: #96c2ff;
+  color: #0e0d0d;
+  font-family: sans-serif;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s;
+}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+.dropdown:hover .dropbtn {
+  color: white;
+  background-color: #0f434b;}
+
+.index_header{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  
+}
+a.index_button{
+  text-decoration: none; /* Убираем подчёркивание */
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #0e0d0d;
+  background-color: #96c2ff;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.index_button:focus,
+.index_button:hover{
+  background-color: #0f434b;
+  color: white;
+  font-size: 24px;
+}
+
+a.index_button:hover{
+  text-decoration: none; /* Убираем подчёркивание */
+  color: white;
+}
+.wrap {
+  width: 1310px;/*фиксируем ширину обертки*/
+  margin: auto;/*центрируем ее*/
+  height: 120px;/*Задаем высоту обертки*/
+}
+
+.bblock {
+  float: left; /*Задаем обтекание*/ /*Высота строки +  верт. центрирования текста*/
+  font-size: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000000;
+  width: 320px; /*Фиксируем ширину блока*/
+  height: 410px;
+  margin-right: 10px;
+  text-align: center; /*Центрируем текст по горизонтали*/
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px #99d5fa;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  
+}
+.index_text{
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  margin: 0 0 32px;
+  
+
+}
+.wrap :last-child {
+  margin-right: 0px;/*Убираем поле последнего div-а*/
+}
+/* Login */
+
+.form_login{
+  background-color: #ffffff;
+  width: 500px;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px #99d5fa;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50%;
+}
+.login_label
+{
+  color: black;
   
 }
 /* Form */
@@ -29,7 +213,7 @@ body{
   font-size: 16px;
 }
 .form_title{
-  color: #1e2021;
+  color: #000000;
   text-align: center;
   margin: 0 0 32px;
   font-weight: normal;
@@ -80,6 +264,7 @@ body{
   color: #8080ff;
 }
 
+
 .footer-container{
   color: #ffffff;
   font-size: 18px;
@@ -99,25 +284,37 @@ a:hover{
   text-decoration-color: #000000;
   color: #c5e4ee;
 }
+.dropdown-content_card{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
 .container{
   color: #fffefe;
   font-size: 20px;
   text-decoration: none;
 }
 span.index_display1{
-  color: #ffedff;
+  color: transparent;
   font-size: 130px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-family: "Arial Black", serif;
+}
+a.index_display1{
+  font-size: 30px;
+  text-decoration: none;
+  font-family: "Arial Black", serif;
 }
 a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
-
 /* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
-}
+
 
 .btn-primary {
   color: #fff;
@@ -169,10 +366,17 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+.navbar-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
   white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+  line-height: 40px; /* Vertically center the text there */
+  max-width: 100%;
+  height: auto;
 }
